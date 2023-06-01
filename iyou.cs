@@ -2,6 +2,6 @@ class IYou
 {
 	static string iyou(string msg)
 	{	
-		return msg.ToLower().replace(" ", "")
+		return "i " + msg.ToLower().replace(" ", "") + " you";
 	}
 }

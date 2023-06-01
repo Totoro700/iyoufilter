@@ -14,5 +14,5 @@ const char* iyou(char[] msg) {
 	for(int i = 0; m[i]; i++){
 		m[i] = tolower(m[i]);
 	}
-	return remove_spaces(m)
+	return "i " + remove_spaces(m) + " you";
 }
